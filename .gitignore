@@ -2,5 +2,5 @@
 /node_modules/
 
 package-lock.json
-./dist/css/OwlCarousel*
+/dist/css/OwlCarousel2-2.3.4/
 

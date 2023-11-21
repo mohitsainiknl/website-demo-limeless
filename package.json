@@ -1,0 +1,23 @@
+{
+  "name": "limeless-media",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css:scss": "node-sass --output-style compressed -o dist/css src/scss",
+    "css:autoprefixer": "postcss -u autoprefixer -r dist/css/*.css",
+    "build:css": "npm run css:scss && npm run css:autoprefixer",
+    "watch:css": "onchange \"src/scss\" -- npm run build:css",
+    "serve": "browser-sync start --server \"dist\" --files \"dist\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "browser-sync": "^2.27.9",
+    "node-sass": "^7.0.1",
+    "onchange": "^7.1.0",
+    "postcss-cli": "^9.1.0"
+  }
+}
