@@ -1,6 +1,6 @@
 <h1 align="center">Limeless Media - Website Demo</h1>
 <p align="center">
-   <a href="https://website-demo-limeless.vercel.app" target="_blank">
+   <a href="https://limeless.vercel.app" target="_blank">
        <img alt= "mohitsainiknl webiste demo limeless home" src="/.readme/live-demo-button.png" width="160">
    </a>
 </p>
